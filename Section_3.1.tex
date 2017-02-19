@@ -1,0 +1,23 @@
+\documentclass[12pt, a4paper]{article}
+
+\begin{document}
+\section{Specific Reuirements}
+	\subsection{Extertenal Interface Requirements}
+		\subsubsection{System Interface}
+The software’s system interface includes Wi-Fi networking, the system uses Wi-Fi access points for detecting locations both indoors and outdoors. The system also uses the campus map database for locating routes and site information, that is, building names, addresses, etc. Based on the GPS and campus map database, the system provides route guidelines to lecture halls, libraries and cafeterias. Other geographical information/data is read from the GPS. \\\\ GPS satellite broadcasts signals which are received by the GPS receiver, the GPS receiver processes the navigation equations to determine the users current PVT, that is, position, velocity, and time. Therefore, based on the user input, the system will start by validating the given input and determine the user’s current position, then from the user’s position the system should display the route guidelines to the destination.\\
+
+		\subsubsection{User Interface}
+The NavUp system will presents/launches the login page/form for users to login. The users should login to access more features, such as getting directions, calendar, etc. If for any reason the user is not registered or authenticated, the user should be able to register by using the “Sign-up” option. So, provided that the user has successfully logged-in, the user can search for locations within the campus. However, there might be many routes leading to the destination, so the user should have an option to choose an optimal route out of many available routes. There are different types of users, of which are students, visitors and lecturers.\\\\
+Certain users have different roles, for example; students will most likely use the software to navigate to lecture halls and access academic calendars, but visitors will most likely use the software to navigate to offices and boardrooms or to find where their meetings are scheduled. Therefore, certain users will have different activities (based on their roles) available for use in the software (NavUp system). Therefore when the user inputs data, the system should communicate with the campus map database and the GPS to get locations and route guidelines.\\\\
+The users, particularly students should have profiles/accounts where their recent searches and others activities can be stored. Therefore, the system should have an option for users to view their profiles, and that’s where they can see their search history or rather the most visited venue/location. \\
+		\subsubsection{Hardware Interface}
+Mobile phones and Wi-Fi routers are the primary hardware interfaces necessary for the NavUp system. The system should communicate with the Wi-Fi routers and make use of the Wi-Fi access points to determine routes and locations. The GPS will use broadcasted signals by the GPS satellites to get locations in real-time. \\
+
+	\subsubsection{Software Interfaces}
+The NavUp will run primarily on mobile phones (smart phones), therefore the application should be compatible across most, if not all ranges of mobile smart phones, that is, either the Android Operating System or the iOS. The NavUp system will make use of the Wi-Fi access points and GPS to determine the current location/position of the user both indoors and outdoors. The system will also use of web services to connect to the campus map database in order to determine routes and site information (building names, addresses, etc.). So, only the routes within the Hatfield campus are accessible and all the information is displayed in the system’s screen interface. The system will determine the current position of the user in real-time using the GPS. \\
+
+	\subsubsection{Communication Interface}
+The system will frequently communicate with the map database and the GPS in order to determine locations and also get directions. The communication between the system and the campus map database is done through Wi-Fi access points and web services. The mobile Operating System handles all other internal communications for the systems’ performance and response time. 
+The NavUp system should be more accurate as possible, that is to say, it shouldn’t necessarily detect the exact user’s location. However, it should be in range (within the radius of the user’s current location). When the system receives an input from the user, the system will communicate with the map database and the GPS to get locations and directions in real-time. The NavUp system should also allow for multiple users at the same time, this is to say, the system’s performance shouldn’t be proportional to the number of active users. \\
+
+\end{document}
