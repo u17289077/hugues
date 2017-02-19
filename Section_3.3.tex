@@ -1,0 +1,18 @@
+\documentclass[12pt, a4paper]{article}
+
+\begin{document}
+\section{Performance Requirements}
+	\subsection{Accuracy}
+	Accuracy is one of the vital performance required for the system. The NavUp system should be accurate enough to get the user’s current position, if for example the user is in the building (indoor) with multiple floors, the system should not necessarily determine the exact venue, but it should be in range and in real time. The system should have a good ranging accuracy. The accuracy of the system is defined as the solution error, and the accuracy of the system should conform to position range and the PVT (Position, Velocity and Time).\\
+
+	\subsection{Availability}
+The NavUp may encounter some positional errors while trying to determine locations and directions, so availability is the amount/percentage of time that the NavUp system can be used (i.e. finding locations and directions, etc.). Therefore, provided that the ranging position errors are less, the Dilution of Precision (DOP) values will be higher, resulting in a better accuracy and thus the availability of the system increases.
+
+	\subsection{Integrity}
+The probability that positioning errors will take place is measured by the integrity of the system, which in-turn can be used for optimizing ranging accuracy.
+
+	\subsection{Continuity}
+Continuity is one of the vital requirements necessary for the NavUp system, the system should be able to start and finish its operation without any interruption. Continuity also measures and maintains the system’s performance during its execution from the initial phase through to the final phase.\\\\  
+The NavUp system will primarily rely on the Wi-Fi access points around campus for connection. So, from time to time, users may encounter high internet connection bandwidth and sometimes a low internet connection bandwidth. Therefore, for this reason the system should be able to detect the internet connection strength and perform in accordance to the internet connection bandwidth strength, so the system should also be able to get locations and directions (route guidelines) even when there is a low internet connection bandwidth.
+
+\end{document}
