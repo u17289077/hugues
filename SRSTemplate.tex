@@ -20,7 +20,7 @@
 	\end{flushleft}
 	\begin{flushleft}
 	Tlaka Mankgwanyane	\hspace{10mm}{\textbf {u14351872}}\\
-	Alberts Josef			\hspace{26mm}{\textbf{xxxxxxxxx}}\\
+	Alberts Josef			\hspace{26mm}{\textbf{u14395283}}\\
 	Oratile Motswagosele	\hspace{11mm}{\textbf{u15306195}}\\
 	Carrim Muhammed		\hspace{14mm}{\textbf{u15019854}}\\
 	Jackson Pearce			\hspace{22.5mm}{\textbf{u14044332}}\\
@@ -28,6 +28,8 @@
 	Kanda Madimba			\hspace{19.5mm}{\textbf{u17289077}}\\
 	\end{flushleft}
 \end{titlepage}
+
+\tableofcontents
 
 \section{Introduction}
 	\subsection{Purpose}
@@ -55,6 +57,12 @@
 	\subsection{External Interface Requirements}
 	\subsection{Functional Requirements}
 	\subsection{Performance Requirements}
+		\subsubsection{Position Accuracy} The position of a device with NavUP activated should be accurately determined by the system - with no more than 15m of deviation from actual location of the device.
+		\subsubsection{Time to Determine Position} It should take NavUP no longer than 45 seconds to determine the location of the device (with reasonable accuracy) once the application has been opened.
+		\subsubsection{Immidiacy of Push Notifications} Relevant push notifications should be pushed to the user's device no further than 30m from the focus of said notification. For example, current events at the AULA should not be displayed if a user is further than 30m from the AULA, to prevent cluttering of the notification bar.
+		\subsubsection{View/Location Updates} Updates of the user's current location as displayed on the device screen should take place at intervals of no more than 5 seconds.
+		\subsubsection{Application Size} The application, once installed, should consume no more than 150mb of storage space on the user's device. This includes cached maps and saved profile data.
+		\subsubsection{User Login} Upon providing the system with correct credentials, the application must present the user with the navigation screen within 7 seconds. 
 	\subsection{Design Constraints}
 	\subsection{Software System Attributes}
 \end{document}
