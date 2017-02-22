@@ -1,0 +1,59 @@
+Product functions:
+	This system would allow different user types to navigate around the University of Pretoria's main campus grounds.
+	This system would include three different types of users, namely: a student; a staff member and a visitor. All three
+	users of the system would be able search for specific buildings and receive a guided path from their current position 
+	to the searched area. The student and staff member users would both be able to search for events happening on 
+	the main campus grounds and be able to save their searched areas for quick searches in future use. The system
+	will also have restricted areas so as not to lead users through restricted areas. Popular areas, such as the food court,
+	will be ready to choose options making them easier and quicker to find. Emergency gathering areas will also be highlighted
+	and highly visible to all users.
+
+User characteristics:
+	There will be three user types, the student; the staff member and the visitor. All users will be able to access
+	the basic functionalities of the system. They will be all be able to search for a location on the main campus 
+	of University of Pretoria.
+
+	A visitor user will be limited to searching for their conference or building that they
+	require as the rest of the functionality will be of no interest to them. 
+
+	The student user will have access to basic finctionality of the system but will reeive push notifications of special events on
+	campus such as a conference on the field of study or a club performing a showcase. This functionality will be 
+	customizable for each user to choose the interests.
+	
+	The staff member user will receive basic access to the system along with routes to restricted areas, upcoming conference
+	locations and special events on campus.
+
+Constraints:
+	The accuracy of this system will be limited as there is not Wi-Fi signal across the entire main campus. Most of the
+	system's functionalities will be unavailable without internet access for the user. This is particularily problematic
+	near the gates of the campus as the user will have to use their own internet connections.
+
+	To detect the traffic density on campus, most people on campus will have to be connected and their location trcked.
+	This becomes problematic when users are not connected as the traffic density will become inaccurate. Another potential
+	problem with this is the strain the users will put on the system when many users are on campus simultaneously.
+
+	This system will also rely on the University of Pretoia's calendar which require the calendar be up to date constantly.
+	It will also require the organisers of conferences and showcases to input their respective events so that they can be showed 
+	on the system. The problem here lies in that organisers may not input their events and so users will not becoe aware
+	of them.
+	
+Assumptions and dependencies:
+	In order for this system to function properly we will have to make a few assumptions about the users on the system.
+	Firstly we are assuming that every user has a smartphone or tablet capable of running this system readily available to them.
+	We are also assuming that they will access to internet on a constant connection.
+	
+	We have also assumened that they are IT literate and thus able to make use of the system. This assumption is however
+	neccesary in order to make this system.
+
+	We are assuming that all users will remain connected to the system once on campus grounds for the detection of the 
+	traffic density calculations.
+
+	This system will rely on several aspects being functional. It relies on the Wi-Fi routers being spread across campus
+	grounds; that every user remains connected once on campus; that the hardware needed to run the system is in fact capable
+	of doing so.
+
+	This system also relies on users having adaquete devices capable of running the system. Another depencies is that the users
+	input their interests so that relevant events are shown to them.
+
+	The final assumption that we are making is that all university events as well as the university calendar is up to date so as to 
+	correctly display only current events of the day.
